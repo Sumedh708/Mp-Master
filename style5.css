@@ -1,0 +1,32 @@
+.slider{
+    width: 1365.7px;
+    height: 622.9px;
+    background: url(https://wallpapercave.com/wp/wp3022745.jpg);
+    margin: 1px auto;
+    animation: slide 20s infinite;
+    animation-fill-mode: forwards;
+    }
+
+    @keyframes slide{
+        25%{
+            background: url(https://wallpapercave.com/wp/wp3022745.jpg);  
+        }
+        50%{
+            background: url(https://i.pinimg.com/originals/e8/70/aa/e870aa73c142f12bb6836d225885cda0.jpg);  
+        }
+        75%{
+            background: url(https://wallpaperaccess.com/full/1339044.jpg);  
+        }
+        100%{
+            background: url(https://i.pinimg.com/originals/c3/24/93/c3249315cda69729c22b7aabd0097321.jpg);  
+        } 
+        }
+        .column{
+            color:white;
+            animation: blink .7s infinite;
+        }
+    @keyframes blink{
+        from{opacity: 5;}
+        to{opacity: 0;}
+    }
+    
